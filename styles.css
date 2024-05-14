@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    body{
+    font-family:serif;
+    background-color: darkgray;
+    background-image:linear-gradient(115deg,rgba(206, 206, 215, 0.8),rgba(71, 77, 254, 0.7)) ,url(girl.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
