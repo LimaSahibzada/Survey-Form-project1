@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <Section class="style">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out this form with the required information</p>
+        <div>
+            <div id="box">
+        <form id="survey-form">
+            <label for="name-label" >Name:</label><br>
+            <input id="name-label" type="text" name="ASM" placeholder="Enter your full name" required><br>
+            <label for="email-label">E-mail:</label><br> 
+            <input id="email-label" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter a valid email address" required ><BR>
+            <label for="number-label">Your age:</label><br> 
+            <input id="number-label" type="number" name="NO" max="130" min="18" placeholder="age"><br>
+           </div>
+        <label id="id">What is your education level:</label><br>
+        <select id="dropdown">
+            <option id="select">bachelor</option>
+            <option id="select">Associated</oPtion>
+            <option id="select">Master</option>
+        </select>
+        <section id="section">
+           <label id="question">Which type of job are you most comfortable working in?<br>
+           <input id="remo" type="radio" name="job"> Remote Job<br>
+           <input id="remo" type="radio" name="job">  Hybrid Job<br>
+           <input id="remo" type="radio" name="job"> Site Job <hr>
+           </label>
+        </section>
+        <section id="section2">
+            <label>Which programming language do you Like:<br>
+            <input type="checkbox" value="HTML" id="chose"> HTML<br>
+            <input type="checkbox" value="CSS" id="chose"> CSS<br>
+            <input type="checkbox" value="JAVASCRIPT" id="chose"> JAVASCRIPT<hr> 
+            </label>
+        </section>
+        <section id="section3">
+            <label>Write your message:<br>
+            <textarea type="textarea" id="area" rows="7.5" cols="55" placeholder="Type here..."></textarea>
+        </label>
+        </section>
+        <button id="submit">Submit</button>
+        
+        </form>
+    </div>
+</Section>
+</body>
+</html>
+
+
+
+        
+      
