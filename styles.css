@@ -123,15 +123,14 @@ hr {
   margin-top: 20px;
   border: none;
   position: absolute;
-  margin-left: 42px; 
+  margin-left: 42px;
   width: 350px;
   height: 40px;
-  border-radius: 20px;  
-  background-color: rgba(97, 100, 212, 0.7); 
-  font-size: 16px;
+  border-radius: 20px;
+  background-color: rgba(97,100,212,0.7);
+  font-size: 16px;   
   font-family: serif;
 }
-
 #submit:hover {
-  background-color: rgba(250, 248, 255, 0.8);
+  background-color: rgba(250,248,255,0.8);
 }
