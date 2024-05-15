@@ -127,10 +127,9 @@ hr {
   width: 350px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgba(97,100,212,0.7);
-  font-size: 16px;   
-  font-family: serif;
+  background-color: rgba(97, 100, 212, 0.7);
+  font: 16px serif;
 }
+
 #submit:hover {
-  background-color: rgba(250,248,255,0.8);
-}
+  background-color: rgba(250, 248, 255, 0.8);}
