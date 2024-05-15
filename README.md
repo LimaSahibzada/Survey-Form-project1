@@ -17,4 +17,4 @@ This is a servey form that is designed for web developers to collect on their pr
 - index.html
 - stles.css
 - linters
-- girl.jpg
+- background.jpg
