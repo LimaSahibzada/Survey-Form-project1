@@ -14,7 +14,6 @@ body {
 }
 
 .style {
-  color: rgb(127, 97, 142);
   background: transparent;
   height: 500px;
   width: 550px;
@@ -30,7 +29,6 @@ body {
   backdrop-filter: blur(20px);
   box-shadow: 0 0 30px rgb(55, 41, 55);
   font-size: 16px;
-  color: rgb(7, 6, 6);
 }
 
 #title {
@@ -131,6 +129,5 @@ hr {
 
 #submit:hover {
   color: rgb(26, 32, 32);
-  cursor: pointer;
   background-color: rgba(250, 248, 255, 0.8);
 }
