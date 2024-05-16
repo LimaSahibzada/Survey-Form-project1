@@ -11,40 +11,43 @@
         <p id="description">Please fill out this form with the required information</p>
         <div id="box">
             <form id="survey-form">
-                <label for="name-label">Name:</label><br>
-                <input id="name-label" type="text" name="ASM" placeholder="Enter your full name" required><br>
-                <label for="email-label">E-mail:</label><br> 
-                <input id="email-label" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter a valid email address" required><br>
-                <label for="number-label">Your age:</label><br> 
-                <input id="number-label" type="number" name="NO" max="130" min="18" placeholder="age"><br>
+                <label for="name-label" id="name-label"> Enter your Name:</label><br>
+                <input id="name" type="text" name="ASM" placeholder="Enter your full name" required><br>
+                <label for="email-label" id="email-label">E-mail:</label><br> 
+                <input id="email" type="email" name="email" placeholder="Enter your email address" required><br>
+                <label for="number-label" id="number-label">Add Your age:</label><br> 
+                <input id="number" type="number" name="NO" placeholder="Enter your age" min="18" max="100" required><br>
+                
+                <label for="education-level">What is your education level:</label><br>
+                <select id="dropdown">
+                    <option value="bachelor">Bachelor</option>
+                    <option value="associated">Associated</option>
+                    <option value="master">Master</option>
+                </select>
+                
+                <div id="section">
+                    Which type of job are you most comfortable working in?<br>
+                    <input type="radio" name="group1" value="remote" id="remo"> Remote job<br>
+                    <input type="radio" name="group1" value="hybrid" id="remo"> Hybrid<hr>
+                </div>
+            
+                <section id="section2">
+                    <label>Which programming language do you Like:<br>
+                    <input type="checkbox" value="html" id="chose"> HTML<br>
+                    <input type="checkbox" value="css" id="chose"> CSS<br>
+                    <input type="checkbox" value="javascript" id="chose"> JavaScript<hr> 
+                    </label>
+                </section>
+            
+                <section id="section3">
+                    <label>Write your message:<br>
+                    <textarea id="area" rows="7.5" cols="55" placeholder="Type your message here..."></textarea>
+                    </label>
+                </section>
+                
+                <button id="submit" type="submit">Submit</button>
             </form>
         </div>
-        <label id="id">What is your education level:</label><br>
-        <select id="dropdown">
-            <option id="select" value="bachelor">bachelor</option>
-            <option id="select" value="Associated">Associated</option>
-            <option id="select" value="Master">Master</option>
-        </select>
-        <section id="section">
-            <label id="question">Which type of job are you most comfortable working in?<br>
-            <input id="remo" type="radio" name="job" value="hiring1"> Remote Job<br>
-            <input id="remo" type="radio" name="job" value="hiring2"> Hybrid Job<br>
-            <input id="remo" type="radio" name="job" value="hiring3"> Site Job <hr>
-            </label>
-        </section>
-        <section id="section2">
-            <label>Which programming language do you Like:<br>
-            <input type="checkbox" value="HTML" id="chose"> HTML<br>
-            <input type="checkbox" value="CSS" id="chose"> CSS<br>
-            <input type="checkbox" value="JAVASCRIPT" id="chose"> JAVASCRIPT<hr> 
-            </label>
-        </section>
-        <section id="section3">
-            <label>Write your message:<br>
-            <textarea id="area" rows="7.5" cols="55" placeholder="Type here..."></textarea>
-            </label>
-        </section>
-        <button id="submit" type="button">Submit</button>
     </section>
 </body>
 </html>
