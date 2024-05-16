@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <section class="style">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out this form with the required information</p>
+        <div id="box">
+            <form id="survey-form">
+                <label for="name-label" id="name-label"> Enter your Name:</label><br>
+                <input id="name" type="text" name="ASM" placeholder="Enter your full name" required><br>
+                <label for="email-label" id="email-label">E-mail:</label><br> 
+                <input id="email" type="email" name="email" placeholder="Enter your email address" required><br>
+                <label for="number-label" id="number-label">Add Your age:</label><br> 
+                <input id="number" type="number" name="NO" placeholder="add your age" min="18" max="100" required><br>
+                
+                <label for="education-level">What is your education level:</label><br>
+                <select id="dropdown">
+                    <option value="bachelor">Bachelor</option>
+                    <option value="associated">Associated</option>
+                    <option value="master">Master</option>
+                </select>
+                
+                <div id="section">
+                    Which type of job are you most comfortable working in?<br>
+                    <input type="radio" name="group1" value="remote" id="remo"> Remote job<br>
+                    <input type="radio" name="group1" value="hybrid" id="remo"> Hybrid<hr>
+                </div>
+            
+                <section id="section2">
+                    <label>Which programming language do you Like:<br>
+                    <input type="checkbox" value="html" id="chose"> HTML<br>
+                    <input type="checkbox" value="css" id="chose"> CSS<br>
+                    <input type="checkbox" value="javascript" id="chose"> JavaScript<hr> 
+                    </label>
+                </section>
+            
+                <section id="section3">
+                    <label>Write your message:<br>
+                    <textarea id="area" rows="7.5" cols="55" placeholder="Type your message here..."></textarea>
+                    </label>
+                </section>
+                
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
