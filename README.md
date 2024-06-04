@@ -1,20 +1,76 @@
-# Survey Form
-This is a servey form that is designed for web developers to collect on their preferences.The servey form is created using HTML and CSS.
+# Survey Form 🚀
 
-## Features
-- friendly design tailored for web developers 
-- Input fields for collecting information
-- Validation to ensure accurate data entry
-- Submit button to send responses to a specified endpoint
+## Project Description 📝
 
-## usage
-1. Clone the repoistry to your local machine 
-2. Open the index.html file in your web browser 
-3. Fill out the survey form with your responses 
-4. click the submit button to send your feedback
+> this is a Survey Form which have some html lessons and codes .
 
-## Files Included
-- index.html
-- stles.css
-- linters
-- background.jpg
+I was inspired to creat a Survey Form . I wanted to creat a page that would be easy to use and flexabale . During creating this page I learned the importance and the challanges of creating a flexable survey form also the value of open source collaboration.
+
+
+
+
+## Technologies Used 🛠️
+
+Languages I used in this project:
+
+- HTML
+- CSS
+
+
+
+## Installation 💻
+
+To check my project, you ahould follow below steps.
+go to your computer local machine and use this command,
+
+```bash
+git clone git@github.com:LimaSahibzada/Survey-Form-project1.git
+
+```
+after cloning write this command:
+```bash
+cd (chose a file)
+```
+After you choose a file then write this command to see all codes in vscode:
+```bash
+code .
+```
+
+
+
+
+## Usage 🎯
+
+1. Clone the repository to your local machine
+2. Open the index.html file in your web browser
+
+
+
+```bash
+git clone git@github.com:LimaSahibzada/Technical-Documentation-page.git
+```
+
+
+
+
+## Features ⭐
+
+My webpage stand out from other pages in the following ways:
+
+- My projrct is easy to use , even for beginners
+- The documantion is written in clear and consise language that is easy to undrestand
+- Form is organized and easy 
+
+
+
+
+
+## Author 👩‍💻
+For questions or suport , please contact me through below addresess:
+- Github: [@LimaSahibzada](https://github.com/LimaSahibzada)
+- LinkedIn: [Lima M_S](https://linkedin.com/in/Lima_M_S)
+- Email: [Lima Sahibzada](limasahibzada2023@gmail.com.com)
+
+
+
+
