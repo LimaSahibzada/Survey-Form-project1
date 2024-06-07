@@ -9,7 +9,7 @@ I was inspired to creat a Survey Form . I wanted to creat a page that would be e
 
 - Below you can have a view of my page:
 
-[Survey Form](https://github.com/LimaSahibzada/Survey-Form-project1/assets/167701815/d1e8a5f3-7799-42d0-93ce-f3d85aebe965)
+[Survey Form](https://limasahibzada.github.io/Survey-Form-project1)
 
 
 ## Technologies Used 🛠️
